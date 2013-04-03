@@ -29,6 +29,7 @@ dependencies[] = options
 dependencies[] = metatag
 dependencies[] = path
 dependencies[] = pathauto
+dependencies[] = globalredirect
 dependencies[] = redirect
 dependencies[] = rdf
 dependencies[] = search
