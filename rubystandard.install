@@ -1,6 +1,6 @@
 <?php
 
-function standard_install() {
+function rubystandard_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -438,6 +438,6 @@ function standard_install() {
 
   // Enable the admin theme.
   db_update('system')->fields(array('status' => 1))->condition('type', 'theme')->condition('name', 'seven')->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
 }
