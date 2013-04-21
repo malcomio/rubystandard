@@ -1,3 +1,5 @@
 name = Ruby Design Standard
 description = Standard installation for Ruby Design clients. 
 core = 7.x
+
+files[] = rubystandard.profile
