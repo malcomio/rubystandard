@@ -31,8 +31,6 @@ projects[drupal][version] = 7
 
 
 
-;projects[rubystandard][type] = "profile"
-;projects[rubystandard][download][url] = "https://github.com/malcomio/rubystandard.git/rubystandard"
 
   
   
@@ -157,3 +155,6 @@ libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
 
 
+
+projects[rubystandard][type] = "profile"
+projects[rubystandard][download][url] = "https://github.com/malcomio/rubystandard.git"
