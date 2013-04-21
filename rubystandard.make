@@ -31,13 +31,52 @@ projects[drupal][version] = 7
 
 
 
-projects[rubystandard][type] = "profile"
-projects[rubystandard][download][url] = "https://github.com/malcomio/rubystandard.git"
+;projects[rubystandard][type] = "profile"
+;projects[rubystandard][download][url] = "https://github.com/malcomio/rubystandard.git/rubystandard"
 
   
   
 ; Modules
 ; --------
+projects[advanced_help][type] = "module"
+projects[advanced_help][subdir] = "contrib"
+
+projects[backup_migrate][type] = "module"
+projects[backup_migrate][subdir] = "contrib"
+
+projects[features][type] = "module"
+projects[features][subdir] = "contrib"
+
+projects[file_entity][type] = "module"
+projects[file_entity][subdir] = "contrib"
+
+projects[google_analytics][type] = "module"
+projects[google_analytics][subdir] = "contrib"
+
+projects[libraries][type] = "module"
+projects[libraries][subdir] = "contrib"
+
+projects[link][type] = "module"
+projects[link][subdir] = "contrib"
+
+projects[linkit][type] = "module"
+projects[linkit][subdir] = "contrib"
+
+projects[media][type] = "module"
+projects[media][subdir] = "contrib"
+
+projects[metatag][type] = "module"
+projects[metatag][subdir] = "contrib"
+
+projects[pathauto][type] = "module"
+projects[pathauto][subdir] = "contrib"
+
+projects[globalredirect][type] = "module"
+projects[globalredirect][subdir] = "contrib"
+
+projects[redirect][type] = "module"
+projects[redirect][subdir] = "contrib"
+
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
@@ -78,8 +117,11 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = "contrib"
 
-projects[wysiwyg][type] = "module"
-projects[wysiwyg][subdir] = "contrib"
+projects[token][type] = "module"
+projects[token][subdir] = "contrib"
+
+projects[video_filter][type] = "module"
+projects[video_filter][subdir] = "contrib"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
@@ -92,6 +134,10 @@ projects[views_slideshow][subdir] = "contrib"
 
 projects[webform][type] = "module"
 projects[webform][subdir] = "contrib"
+
+projects[wysiwyg][type] = "module"
+projects[wysiwyg][subdir] = "contrib"
+
 
 projects[xmlsitemap][type] = "module"
 projects[xmlsitemap][subdir] = "contrib"
