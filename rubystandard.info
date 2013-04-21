@@ -16,7 +16,8 @@ dependencies[] = features
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = file_entity
-; dependencies[] = google_analytics
+; although the project is called google analytics, the module is called googleanalytics
+dependencies[] = googleanalytics
 dependencies[] = help
 dependencies[] = image
 dependencies[] = libraries
