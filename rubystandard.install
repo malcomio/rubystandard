@@ -3,53 +3,6 @@
 function rubystandard_install() {
 
 
-  $modules_to_enable = array(
-'admin_menu',
-'admin_menu_toolbar',
-'advanced_help',
-'backup_migrate',
-'block',
-'contextual',
-'ctools',
-'dashboard',
-'dblog',
-'devel',
-'features',
-'field_ui',
-'file',
-'file_entity',
-'google_analytics',
-'help',
-'image',
-'libraries',
-'link',
-'linkit',
-'list',
-    'media',
-'menu',
-'number',
-'options',
-'metatag',
-'path',
-'pathauto',
-'globalredirect',
-'redirect',
-'rdf',
-'search',
-'shortcut',
-'taxonomy',
-'token',
-'video_filter',
-'views',
-'views_slideshow_cycle',
-'views_ui',
-'wysiwyg',
-  );
-
-  foreach ($modules_to_enable as $module) {
-    module_enable($module);
-  }
-
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
