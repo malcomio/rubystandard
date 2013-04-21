@@ -30,7 +30,14 @@ function rubystandard_install() {
         'weight' => 2,
         'status' => 1,
       ),
-      // HTML corrector filter.
+      'media_filter' => array(
+        'weight' => 8,
+        'status' => 1,
+      ),
+      'video_filter' => array(
+        'weight' => 9,
+        'status' => 1,
+      ),
       'filter_htmlcorrector' => array(
         'weight' => 10,
         'status' => 1,
