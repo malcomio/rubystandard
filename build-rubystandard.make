@@ -121,5 +121,9 @@ projects[zen][subdir] = "contrib"
 ; ---------
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
+
+libraries[tinymce][download][type] = "file"
+libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/3.5.8/tinymce_3.5.8.zip"
