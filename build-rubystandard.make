@@ -116,6 +116,11 @@ projects[zen][version] = 5.1
 projects[zen][type] = "theme"
 projects[zen][subdir] = "contrib"
 
+projects[rubik][type] = "theme"
+projects[rubik][subdir] = "contrib"
+
+projects[tao][type] = "theme"
+projects[tao][subdir] = "contrib"
 
 ; Libraries
 ; ---------
