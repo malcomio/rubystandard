@@ -54,6 +54,9 @@ projects[video_filter][subdir] = "contrib"
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
 
+projects[admin_views][type] = "module"
+projects[admin_views][subdir] = "contrib"
+
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 
