@@ -4,6 +4,7 @@ core = 7.x
 
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
 dependencies[] = advanced_help
 dependencies[] = backup_migrate
 dependencies[] = block
@@ -42,6 +43,7 @@ dependencies[] = video_filter
 dependencies[] = views
 dependencies[] = views_slideshow_cycle
 dependencies[] = views_ui
+dependencies[] = webform
 dependencies[] = wysiwyg
 
 files[] = rubystandard.profile
