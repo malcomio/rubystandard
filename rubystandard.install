@@ -20,7 +20,7 @@ function rubystandard_install() {
         'weight' => 1,
         'status' => 1,
         'default settings' => array(
-          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <p> <span> <h2> <h3> <h4>',
+          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <p> <br> <span> <h2> <h3> <h4>',
           'filter_html_help' => 1,
           'filter_html_nofollow' => 0,
         ),
