@@ -450,12 +450,17 @@ function rubystandard_install() {
   variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
 
-  // Set revisions on by default.
   $types = node_type_get_types();
-  foreach ($types as $type) {
-    variable_set('node_options_' . $type['type'], array(
+  foreach ($types as $type => $details) {
+    // Set revisions on by default.
+    variable_set('node_options_' . $type, array(
       'status',
       'revision',
     ));
+
+    // Don't display author and date information.
+    if ($type != 'article') {
+      variable_set('node_submitted_' . $type, 0);
+    }
   }
 }
