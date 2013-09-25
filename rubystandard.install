@@ -449,4 +449,13 @@ function rubystandard_install() {
   db_update('system')->fields(array('status' => 1))->condition('type', 'theme')->condition('name', 'seven')->execute();
   variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
+
+  // Set revisions on by default.
+  $types = node_type_get_types();
+  foreach ($types as $type) {
+    variable_set('node_options_' . $type['type'], array(
+      'status',
+      'revision',
+    ));
+  }
 }
