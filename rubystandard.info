@@ -29,6 +29,7 @@ dependencies[] = media
 dependencies[] = menu
 dependencies[] = number
 dependencies[] = options
+dependencies[] = manualcrop
 dependencies[] = metatag
 dependencies[] = path
 dependencies[] = pathauto

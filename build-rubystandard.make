@@ -34,6 +34,9 @@ projects[media][type] = "module"
 projects[media][version] = "2.0-alpha2"
 projects[media][subdir] = "contrib"
 
+projects[manualcrop][type] = "module"
+projects[manualcrop][subdir] = "contrib"
+
 projects[metatag][type] = "module"
 projects[metatag][subdir] = "contrib"
 
@@ -136,3 +139,8 @@ libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jque
 
 libraries[tinymce][download][type] = "file"
 libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/3.5.8/tinymce_3.5.8.zip"
+
+libraries[jquery.imgareaselect][download][type] = "file"
+libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
+
+libraries[jquery.imagesloaded][download][url] = "https://github.com/desandro/imagesloaded.git"
