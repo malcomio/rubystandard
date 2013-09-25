@@ -31,6 +31,7 @@ projects[linkit][type] = "module"
 projects[linkit][subdir] = "contrib"
 
 projects[media][type] = "module"
+projects[media][version] = "2.0-alpha2"
 projects[media][subdir] = "contrib"
 
 projects[metatag][type] = "module"
