@@ -1,2 +1,2 @@
 # Download dependent modules
-drush dl admin_menu, admin_views, advanced_help, backup_migrate, ctools, devel, features, file_entity, google_analytics, libraries, link, linkit, media-7.x-2.0-alpha2, metatag, pathauto, globalredirect, redirect, token, video_filter, views, views_bulk_operations, views_slideshow, webform, wysiwyg
+drush dl admin_menu, admin_views, advanced_help, backup_migrate, ctools, devel, features, file_entity, google_analytics, libraries, link, linkit, media-7.x-2.0-alpha2, metatag, pathauto, globalredirect, redirect, rubik, tao, token, video_filter, views, views_bulk_operations, views_slideshow, webform, wysiwyg
