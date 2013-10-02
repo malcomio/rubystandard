@@ -450,6 +450,16 @@ function rubystandard_install() {
   variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
 
+  // Set up the admin menu.
+  variable_set('admin_menu_components', array(
+    'admin_menu.icon' => 1,
+    'admin_menu.menu' => 1,
+    'admin_menu.search' => 1,
+    'admin_menu.users' => 1,
+    'admin_menu.account' => 1,
+    'shortcut.links' => 1,
+  ));
+
   $types = node_type_get_types();
   foreach ($types as $type => $details) {
     // Set revisions on by default.
