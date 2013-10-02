@@ -6,63 +6,20 @@ projects[drupal][type] = core
 projects[rubystandard][type] = "profile"
 projects[rubystandard][download][url] = "https://github.com/malcomio/rubystandard.git"
 
+projects[admin_menu][type] = "module"
+projects[admin_menu][subdir] = "contrib"
+
+projects[admin_views][type] = "module"
+projects[admin_views][subdir] = "contrib"
+
 projects[advanced_help][type] = "module"
 projects[advanced_help][subdir] = "contrib"
 
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][subdir] = "contrib"
 
-projects[features][type] = "module"
-projects[features][subdir] = "contrib"
-
-projects[features_extra][type] = "module"
-projects[features_extra][subdir] = "contrib"
-
-projects[file_entity][type] = "module"
-projects[file_entity][subdir] = "contrib"
-
-projects[google_analytics][type] = "module"
-projects[google_analytics][subdir] = "contrib"
-
-projects[libraries][type] = "module"
-projects[libraries][subdir] = "contrib"
-
-projects[link][type] = "module"
-projects[link][subdir] = "contrib"
-
-projects[linkit][type] = "module"
-projects[linkit][subdir] = "contrib"
-
-projects[media][type] = "module"
-projects[media][version] = "2.0-alpha2"
-projects[media][subdir] = "contrib"
-
-projects[manualcrop][type] = "module"
-projects[manualcrop][subdir] = "contrib"
-
-projects[metatag][type] = "module"
-projects[metatag][subdir] = "contrib"
-
-projects[pathauto][type] = "module"
-projects[pathauto][subdir] = "contrib"
-
-projects[globalredirect][type] = "module"
-projects[globalredirect][subdir] = "contrib"
-
-projects[redirect][type] = "module"
-projects[redirect][subdir] = "contrib"
-
-projects[token][type] = "module"
-projects[token][subdir] = "contrib"
-
-projects[video_filter][type] = "module"
-projects[video_filter][subdir] = "contrib"
-
-projects[admin_menu][type] = "module"
-projects[admin_menu][subdir] = "contrib"
-
-projects[admin_views][type] = "module"
-projects[admin_views][subdir] = "contrib"
+projects[block_class][type] = "module"
+projects[block_class][subdir] = "contrib"
 
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
@@ -73,35 +30,78 @@ projects[date][subdir] = "contrib"
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 
-projects[imce][type] = "module"
-projects[imce][subdir] = "contrib"
-
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
-
-projects[field_group][type] = "module"
-projects[field_group][subdir] = "contrib"
-
-projects[jquery_ui][type] = "module"
-projects[jquery_ui][subdir] = "contrib"
-
-projects[mollom][type] = "module"
-projects[mollom][subdir] = "contrib"
-
-projects[search404][type] = "module"
-projects[search404][subdir] = "contrib"
 
 projects[extlink][type] = "module"
 projects[extlink][subdir] = "contrib"
 
+projects[features][type] = "module"
+projects[features][subdir] = "contrib"
+
+projects[features_extra][type] = "module"
+projects[features_extra][subdir] = "contrib"
+
+projects[field_group][type] = "module"
+projects[field_group][subdir] = "contrib"
+
+projects[file_entity][type] = "module"
+projects[file_entity][subdir] = "contrib"
+
+projects[google_analytics][type] = "module"
+projects[google_analytics][subdir] = "contrib"
+
+projects[imce][type] = "module"
+projects[imce][subdir] = "contrib"
+
 projects[imce_wysiwyg][type] = "module"
 projects[imce_wysiwyg][subdir] = "contrib"
+
+projects[jquery_ui][type] = "module"
+projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = "contrib"
 
-projects[wysiwyg][type] = "module"
-projects[wysiwyg][subdir] = "contrib"
+projects[libraries][type] = "module"
+projects[libraries][subdir] = "contrib"
+
+projects[link][type] = "module"
+projects[link][subdir] = "contrib"
+
+projects[linkit][type] = "module"
+projects[linkit][subdir] = "contrib"
+
+projects[manualcrop][type] = "module"
+projects[manualcrop][subdir] = "contrib"
+
+projects[media][type] = "module"
+projects[media][version] = "2.0-alpha2"
+projects[media][subdir] = "contrib"
+
+projects[metatag][type] = "module"
+projects[metatag][subdir] = "contrib"
+
+projects[mollom][type] = "module"
+projects[mollom][subdir] = "contrib"
+
+projects[pathauto][type] = "module"
+projects[pathauto][subdir] = "contrib"
+
+projects[globalredirect][type] = "module"
+projects[globalredirect][subdir] = "contrib"
+
+projects[redirect][type] = "module"
+projects[redirect][subdir] = "contrib"
+
+projects[search404][type] = "module"
+projects[search404][subdir] = "contrib"
+
+projects[token][type] = "module"
+projects[token][subdir] = "contrib"
+
+projects[video_filter][type] = "module"
+projects[video_filter][subdir] = "contrib"
 
 projects[views][type] = "module"
 projects[views][subdir] = "contrib"
@@ -114,6 +114,9 @@ projects[views_slideshow][subdir] = "contrib"
 
 projects[webform][type] = "module"
 projects[webform][subdir] = "contrib"
+
+projects[wysiwyg][type] = "module"
+projects[wysiwyg][subdir] = "contrib"
 
 projects[xmlsitemap][type] = "module"
 projects[xmlsitemap][subdir] = "contrib"

@@ -8,6 +8,7 @@ dependencies[] = admin_views
 dependencies[] = advanced_help
 dependencies[] = backup_migrate
 dependencies[] = block
+dependencies[] = block_class
 dependencies[] = contextual
 dependencies[] = ctools
 dependencies[] = dashboard
