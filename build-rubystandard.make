@@ -15,6 +15,9 @@ projects[backup_migrate][subdir] = "contrib"
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
 
+projects[features_extra][type] = "module"
+projects[features_extra][subdir] = "contrib"
+
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
 
