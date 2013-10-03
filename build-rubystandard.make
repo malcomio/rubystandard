@@ -100,6 +100,9 @@ projects[redirect][subdir] = "contrib"
 projects[search404][type] = "module"
 projects[search404][subdir] = "contrib"
 
+projects[special_menu_items][type] = "module"
+projects[special_menu_items][subdir] = "contrib"
+
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
 
