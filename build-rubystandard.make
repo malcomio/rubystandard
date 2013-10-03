@@ -79,6 +79,9 @@ projects[media][type] = "module"
 projects[media][version] = "2.0-alpha2"
 projects[media][subdir] = "contrib"
 
+projects[menu_attributes][type] = "module"
+projects[menu_attributes][subdir] = "contrib"
+
 projects[metatag][type] = "module"
 projects[metatag][subdir] = "contrib"
 
