@@ -106,6 +106,9 @@ projects[special_menu_items][subdir] = "contrib"
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
 
+projects[uuid][type] = "module"
+projects[uuid][subdir] = "contrib"
+
 projects[uuid_features][type] = "module"
 projects[uuid_features][subdir] = "contrib"
 
