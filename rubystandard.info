@@ -30,6 +30,7 @@ dependencies[] = list
 dependencies[] = media
 dependencies[] = menu
 dependencies[] = menu_attributes
+dependencies[] = menu_block
 dependencies[] = number
 dependencies[] = options
 dependencies[] = manualcrop

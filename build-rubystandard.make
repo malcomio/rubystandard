@@ -82,6 +82,9 @@ projects[media][subdir] = "contrib"
 projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
 
+projects[menu_block][type] = "module"
+projects[menu_block][subdir] = "contrib"
+
 projects[metatag][type] = "module"
 projects[metatag][subdir] = "contrib"
 
