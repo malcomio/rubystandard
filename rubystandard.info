@@ -47,6 +47,7 @@ dependencies[] = token
 dependencies[] = uuid_features
 dependencies[] = video_filter
 dependencies[] = views
+dependencies[] = views_content
 dependencies[] = views_slideshow_cycle
 dependencies[] = views_ui
 dependencies[] = webform
