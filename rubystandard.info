@@ -12,6 +12,7 @@ dependencies[] = block_class
 dependencies[] = contextual
 dependencies[] = ctools
 dependencies[] = dashboard
+dependencies[] = date
 dependencies[] = dblog
 dependencies[] = devel
 dependencies[] = features
