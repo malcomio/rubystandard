@@ -2,7 +2,6 @@
 
 function rubystandard_install() {
 
-
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -235,7 +234,7 @@ function rubystandard_install() {
     'view advanced help index',
     'view advanced help popup',
     'view advanced help topic',
-    'view file',
+    'view files',
     'view own unpublished content',
     'view revisions',
     'view the administration theme',
