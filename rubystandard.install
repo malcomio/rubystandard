@@ -178,7 +178,6 @@ function rubystandard_install() {
     'access all views',
     'access backup and migrate',
     'access backup files',
-    'access content',
     'access content overview',
     'access contextual links',
     'access site in maintenance mode',
