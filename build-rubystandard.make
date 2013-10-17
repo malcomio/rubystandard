@@ -159,7 +159,7 @@ libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
 
 libraries[tinymce][download][type] = "file"
-libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/3.5.8/tinymce_3.5.8.zip"
+libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/tinymce_3.5.8.zip"
 
 libraries[jquery.imgareaselect][download][type] = "file"
 libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
