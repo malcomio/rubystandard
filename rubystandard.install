@@ -217,7 +217,6 @@ function rubystandard_install() {
     'display drupal links',
     'edit any article content',
     'edit any page content',
-    'edit file',
     'edit meta tags',
     'edit own article content',
     'edit own page content',
@@ -240,7 +239,6 @@ function rubystandard_install() {
     'view own unpublished content',
     'view revisions',
     'view the administration theme',
-
   ));
 
   $user_admin_role = new stdClass();
