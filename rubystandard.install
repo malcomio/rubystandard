@@ -209,7 +209,6 @@ function rubystandard_install() {
     'delete any page content',
     'delete revisions',
     'delete terms in 1',
-    'display drupal links',
     'edit any article content',
     'edit any page content',
     'edit meta tags',
