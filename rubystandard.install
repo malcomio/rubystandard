@@ -261,6 +261,25 @@ function rubystandard_install() {
   );
   menu_link_save($item);
 
+
+  // Create extra shortcuts.
+  $shortcuts = array(
+    array(
+      'link_path' => drupal_get_normal_path('admin/content/file/thumbnails'),
+      'link_title' => 'Files',
+      'menu_name' => 'shortcut-set-1',
+    ),
+    array(
+      'link_path' => drupal_get_normal_path('admin/structure/menu/manage/main-menu'),
+      'link_title' => 'Edit main menu',
+      'menu_name' => 'shortcut-set-1',
+    ),
+  );
+
+  foreach ($shortcuts as $item) {
+    menu_link_save($item);
+  }
+
   // Update the menu router information.
   menu_rebuild();
 
