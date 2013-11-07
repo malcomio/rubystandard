@@ -108,7 +108,7 @@ function rubystandard_install() {
   // Don't display date and author information for "Basic page" nodes by default.
   variable_set('node_submitted_page', FALSE);
 
-  // Allow visitor account creation with administrative approval.
+  // Don't allow visitors to create accounts.
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
   // Create a default vocabulary named "Tags", enabled for the 'article' content type.
