@@ -310,4 +310,8 @@ function rubystandard_install() {
       variable_set('node_submitted_' . $type, 0);
     }
   }
+
+  // Assume all uploads use public file system.
+  variable_set('file_entity_file_upload_wizard_skip_scheme', 1);
+
 }
