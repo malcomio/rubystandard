@@ -319,4 +319,6 @@ function rubystandard_install() {
   variable_set('views_ui_show_preview_information', 1);
   variable_set('views_ui_show_sql_query_where', 'below');
 
+  // Set Pathauto defaults.
+  variable_set('pathauto_node_pattern', '[node:menu-link:parents:join-path]/[node:title]');
 }
