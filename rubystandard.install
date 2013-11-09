@@ -314,4 +314,9 @@ function rubystandard_install() {
   // Assume all uploads use public file system.
   variable_set('file_entity_file_upload_wizard_skip_scheme', 1);
 
+  // Set Views UI preferences.
+  variable_set('views_ui_show_advanced_column', 1);
+  variable_set('views_ui_show_preview_information', 1);
+  variable_set('views_ui_show_sql_query_where', 'below');
+
 }
