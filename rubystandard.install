@@ -180,6 +180,7 @@ function rubystandard_install() {
     'access content',
     'access content overview',
     'access contextual links',
+    'access draggableviews',
     'access site in maintenance mode',
     'access site reports',
     'access user profiles',

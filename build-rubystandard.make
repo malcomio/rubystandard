@@ -30,6 +30,9 @@ projects[date][subdir] = "contrib"
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 
+projects[draggableviews][type] = "module"
+projects[draggableviews][subdir] = "contrib"
+
 projects[entity][type] = "module"
 projects[entity][subdir] = "contrib"
 
