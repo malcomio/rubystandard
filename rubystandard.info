@@ -41,6 +41,7 @@ dependencies[] = path
 dependencies[] = pathauto
 dependencies[] = globalredirect
 dependencies[] = redirect
+dependencies[] = r4032login
 ; for some reason the install falls over with errors about missing table rdf_mapping
 ;dependencies[] = rdf
 dependencies[] = search
