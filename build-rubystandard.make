@@ -51,6 +51,9 @@ projects[field_group][subdir] = "contrib"
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
 
+projects[globalredirect][type] = "module"
+projects[globalredirect][subdir] = "contrib"
+
 projects[google_analytics][type] = "module"
 projects[google_analytics][subdir] = "contrib"
 
@@ -97,11 +100,11 @@ projects[mollom][subdir] = "contrib"
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
 
-projects[globalredirect][type] = "module"
-projects[globalredirect][subdir] = "contrib"
-
 projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
+
+projects[r4032login][type] = "module"
+projects[r4032login][subdir] = "contrib"
 
 projects[search404][type] = "module"
 projects[search404][subdir] = "contrib"
