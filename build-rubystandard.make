@@ -60,6 +60,9 @@ projects[google_analytics][subdir] = "contrib"
 projects[imce][type] = "module"
 projects[imce][subdir] = "contrib"
 
+projects[imageapi_optimize][type] = "module"
+projects[imageapi_optimize][subdir] = "contrib"
+
 projects[imce_wysiwyg][type] = "module"
 projects[imce_wysiwyg][subdir] = "contrib"
 

@@ -21,10 +21,12 @@ dependencies[] = fe_block
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = file_entity
+dependencies[] = globalredirect
 ; although the project is called google analytics, the module is called googleanalytics
 dependencies[] = googleanalytics
 dependencies[] = help
 dependencies[] = image
+dependencies[] = imageapi_optimize
 dependencies[] = libraries
 dependencies[] = link
 dependencies[] = linkit
@@ -39,7 +41,6 @@ dependencies[] = manualcrop
 dependencies[] = metatag
 dependencies[] = path
 dependencies[] = pathauto
-dependencies[] = globalredirect
 dependencies[] = redirect
 dependencies[] = r4032login
 ; for some reason the install falls over with errors about missing table rdf_mapping
