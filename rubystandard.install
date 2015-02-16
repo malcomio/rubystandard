@@ -4,6 +4,43 @@
  * Implements hook_install().
  */
 function rubystandard_install() {
+
+  $variables = array(
+
+    // Default "Basic page" to not be promoted and have comments disabled.
+    'node_options_page' => array('status'),
+
+    // Don't display date and author information for "Basic page" by default.
+    'node_submitted_page' => FALSE,
+
+    // Don't allow visitors to create accounts.
+    'user_register' => USER_REGISTER_ADMINISTRATORS_ONLY,
+
+    // Enable the admin theme.
+    'admin_theme' => 'rubik',
+    'node_admin_theme' => '1',
+
+    // Assume all uploads use public file system.
+    'file_entity_file_upload_wizard_skip_scheme' => 1,
+
+    // Set Views UI preferences.
+    'views_ui_show_advanced_column' => 1,
+    'views_ui_show_preview_information' => 1,
+    'views_ui_show_sql_query_where' => 'below',
+
+    // Set Pathauto defaults.
+    'pathauto_node_pattern' => '[node:menu-link:parents:join-path]/[node:title]',
+
+    // Set up secure site.
+    'securesite_enabled' => '1',
+    'securesite_guest_name' => 'ruby',
+    'securesite_guest_pass' => 'design',
+  );
+
+  foreach ($variables as $key => $value) {
+    variable_set($key, $value);
+  }
+
   $t = get_t();
 
   // Add text formats.
@@ -106,16 +143,7 @@ function rubystandard_install() {
     node_add_body_field($type);
   }
 
-  // Default "Basic page" to not be promoted and have comments disabled.
-  variable_set('node_options_page', array('status'));
-
-  // Don't display date and author information for "Basic page" nodes by default.
-  variable_set('node_submitted_page', FALSE);
-
-  // Don't allow visitors to create accounts.
-  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
-
-  // Create a default vocabulary named "Tags", enabled for the 'article' content type.
+  // Create default vocabulary named "Tags", enabled for Articles.
   $description = $t('Use tags to group articles on similar topics into categories.');
   $help = $t('Enter a comma-separated list of words to describe your content.');
   $vocabulary = (object) array(
@@ -169,7 +197,10 @@ function rubystandard_install() {
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', $filtered_html_permission));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array(
+    'access content',
+    $filtered_html_permission
+  ));
 
   $editor_role = new stdClass();
   $editor_role->name = 'editor';
@@ -256,7 +287,8 @@ function rubystandard_install() {
   variable_set('user_admin_role', $admin_role->rid);
 
   // Assign user 1 the "administrator" role.
-  db_insert('users_roles')->fields(array('uid' => 1, 'rid' => $admin_role->rid))->execute();
+  db_insert('users_roles')->fields(array('uid' => 1, 'rid' => $admin_role->rid))
+    ->execute();
 
   // Create a Home link in the main menu.
   $item = array(
@@ -288,10 +320,6 @@ function rubystandard_install() {
   // Update the menu router information.
   menu_rebuild();
 
-  // Enable the admin theme.
-  variable_set('admin_theme', 'rubik');
-  variable_set('node_admin_theme', '1');
-
   // Set up the admin menu.
   variable_set('admin_menu_components', array(
     'admin_menu.icon' => 1,
@@ -316,14 +344,4 @@ function rubystandard_install() {
     }
   }
 
-  // Assume all uploads use public file system.
-  variable_set('file_entity_file_upload_wizard_skip_scheme', 1);
-
-  // Set Views UI preferences.
-  variable_set('views_ui_show_advanced_column', 1);
-  variable_set('views_ui_show_preview_information', 1);
-  variable_set('views_ui_show_sql_query_where', 'below');
-
-  // Set Pathauto defaults.
-  variable_set('pathauto_node_pattern', '[node:menu-link:parents:join-path]/[node:title]');
 }
