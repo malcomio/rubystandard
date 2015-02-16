@@ -112,6 +112,9 @@ projects[r4032login][subdir] = "contrib"
 projects[search404][type] = "module"
 projects[search404][subdir] = "contrib"
 
+projects[securesite][type] = "module"
+projects[securesite][subdir] = "contrib"
+
 projects[special_menu_items][type] = "module"
 projects[special_menu_items][subdir] = "contrib"
 
