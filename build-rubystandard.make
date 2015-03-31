@@ -85,7 +85,7 @@ projects[manualcrop][type] = "module"
 projects[manualcrop][subdir] = "contrib"
 
 projects[media][type] = "module"
-projects[media][version] = "2.0-alpha2"
+projects[media][version] = "2.0-alpha4"
 projects[media][subdir] = "contrib"
 
 projects[menu_attributes][type] = "module"
@@ -100,8 +100,14 @@ projects[metatag][subdir] = "contrib"
 projects[mollom][type] = "module"
 projects[mollom][subdir] = "contrib"
 
+projects[multiform][type] = "module"
+projects[multiform][subdir] = "contrib"
+
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
+
+projects[plupload][type] = "module"
+projects[plupload][subdir] = "contrib"
 
 projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
@@ -177,3 +183,6 @@ libraries[jquery.imgareaselect][download][type] = "file"
 libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
 
 libraries[jquery.imagesloaded][download][url] = "https://github.com/desandro/imagesloaded.git"
+
+libraries[plupload][download][type] = "file"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"
