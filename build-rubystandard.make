@@ -106,6 +106,9 @@ projects[multiform][subdir] = "contrib"
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
 
+projects[pathologic][type] = "module"
+projects[pathologic][subdir] = "contrib"
+
 projects[plupload][type] = "module"
 projects[plupload][subdir] = "contrib"
 
