@@ -37,6 +37,7 @@ dependencies[] = menu_attributes
 dependencies[] = menu_block
 dependencies[] = number
 dependencies[] = options
+dependencies[] = maintenance_exempt
 dependencies[] = manualcrop
 dependencies[] = metatag
 dependencies[] = path
