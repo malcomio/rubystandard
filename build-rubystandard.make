@@ -45,6 +45,9 @@ projects[features][subdir] = "contrib"
 projects[features_extra][type] = "module"
 projects[features_extra][subdir] = "contrib"
 
+projects[fences][type] = "module"
+projects[fences][subdir] = "contrib"
+
 projects[field_group][type] = "module"
 projects[field_group][subdir] = "contrib"
 
