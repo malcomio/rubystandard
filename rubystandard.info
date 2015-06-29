@@ -27,6 +27,7 @@ dependencies[] = googleanalytics
 dependencies[] = help
 dependencies[] = image
 dependencies[] = imageapi_optimize
+dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = link
 dependencies[] = linkit
