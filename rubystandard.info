@@ -33,6 +33,7 @@ dependencies[] = link
 dependencies[] = linkit
 dependencies[] = list
 dependencies[] = media
+dependencies[] = media_bulk_upload
 dependencies[] = menu
 dependencies[] = menu_attributes
 dependencies[] = menu_block
