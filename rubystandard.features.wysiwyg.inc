@@ -29,9 +29,6 @@ function rubystandard_wysiwyg_default_profiles() {
           'numlist' => 1,
           'formatselect' => 1,
         ),
-        'media' => array(
-          'media' => 1,
-        ),
         'linkit' => array(
           'linkit' => 1,
         ),
