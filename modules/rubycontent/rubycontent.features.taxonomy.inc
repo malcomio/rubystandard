@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * rubystandard.features.taxonomy.inc
+ * rubycontent.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function rubystandard_taxonomy_default_vocabularies() {
+function rubycontent_taxonomy_default_vocabularies() {
   return array(
     'tags' => array(
       'name' => 'Tags',

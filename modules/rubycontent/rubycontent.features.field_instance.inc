@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * rubystandard.features.field_instance.inc
+ * rubycontent.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function rubystandard_field_default_field_instances() {
+function rubycontent_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-article-body'
@@ -122,7 +122,7 @@ function rubystandard_field_default_field_instances() {
         'manualcrop_thumblist' => 0,
       ),
       'type' => 'media_generic',
-      'weight' => 41,
+      'weight' => 42,
     ),
   );
 
@@ -278,7 +278,7 @@ function rubystandard_field_default_field_instances() {
         'manualcrop_thumblist' => 0,
       ),
       'type' => 'media_generic',
-      'weight' => 43,
+      'weight' => 42,
     ),
   );
 

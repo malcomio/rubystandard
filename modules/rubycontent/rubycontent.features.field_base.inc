@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * rubystandard.features.field_base.inc
+ * rubycontent.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function rubystandard_field_default_field_bases() {
+function rubycontent_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'body'

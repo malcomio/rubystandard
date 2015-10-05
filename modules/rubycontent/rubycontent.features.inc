@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * rubystandard.features.inc
+ * rubycontent.features.inc
  */
 
 /**
  * Implements hook_node_info().
  */
-function rubystandard_node_info() {
+function rubycontent_node_info() {
   $items = array(
     'article' => array(
       'name' => t('Article'),
