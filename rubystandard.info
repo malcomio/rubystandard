@@ -1,7 +1,8 @@
 name = Ruby Design Standard
 description = Standard installation for Ruby Design clients.
 core = 7.x
-package = Other
+package = Ruby Design
+
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
