@@ -2,7 +2,6 @@ name = Ruby Design Standard
 description = Standard installation for Ruby Design clients.
 core = 7.x
 package = Ruby Design
-
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
@@ -68,6 +67,7 @@ dependencies[] = xmlsitemap_node
 distribution_name = Drupal
 features[features_api][] = api:2
 features[filter][] = filtered_html
+features[user_permission][] = use text format filtered_html
 features[wysiwyg][] = filtered_html
 files[] = rubystandard.profile
 hidden = 1
