@@ -9,6 +9,7 @@ Standard Drupal 7 installation profile for Ruby Design clients.
     drush make build-rubystandard.make ../www/MYNEWSITE --prepare-install
     cd ../www/MYNEWSITE
     drush zen MYTHEMENAME --without-rtl
+    drush si rubystandard --site-name="My Site" --account-name="My Name" --account-pass=admin
 
 This installs the standard profile, including:
 * WYSIWYG
