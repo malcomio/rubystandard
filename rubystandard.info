@@ -55,6 +55,7 @@ dependencies[] = shortcut
 dependencies[] = special_menu_items
 dependencies[] = taxonomy
 dependencies[] = token
+dependencies[] = transliteration
 dependencies[] = uuid_features
 dependencies[] = video_filter
 dependencies[] = views
