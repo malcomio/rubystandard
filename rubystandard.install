@@ -185,6 +185,7 @@ function rubystandard_install() {
     'edit terms in 1',
     'flush caches',
     'import media',
+    'access media browser',
     'opt-in or out of tracking',
     'perform backup',
     'restore from backup',
