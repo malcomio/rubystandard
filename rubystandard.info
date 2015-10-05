@@ -35,6 +35,7 @@ dependencies[] = maintenance_exempt
 dependencies[] = manualcrop
 dependencies[] = media
 dependencies[] = media_bulk_upload
+dependencies[] = media_wysiwyg
 dependencies[] = menu
 dependencies[] = menu_attributes
 dependencies[] = menu_block

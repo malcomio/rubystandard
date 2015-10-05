@@ -39,6 +39,11 @@ function rubystandard_filter_default_formats() {
         'status' => 1,
         'settings' => array(),
       ),
+      'media_filter' => array(
+        'weight' => 2,
+        'status' => 1,
+        'settings' => array(),
+      ),
       'video_filter' => array(
         'weight' => 9,
         'status' => 1,
@@ -54,6 +59,14 @@ function rubystandard_filter_default_formats() {
         'weight' => 10,
         'status' => 1,
         'settings' => array(),
+      ),
+      'pathologic' => array(
+        'weight' => 50,
+        'status' => 1,
+        'settings' => array(
+          'local_paths' => '',
+          'protocol_style' => 'full',
+        ),
       ),
     ),
   );
