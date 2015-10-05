@@ -38,6 +38,9 @@ function rubystandard_wysiwyg_default_profiles() {
         'video_filter' => array(
           'video_filter' => 1,
         ),
+        'drupal' => array(
+          'media' => 1,
+        ),
       ),
       'toolbar_loc' => 'top',
       'toolbar_align' => 'left',
