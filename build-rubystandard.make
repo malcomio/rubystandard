@@ -45,6 +45,9 @@ projects[features][subdir] = "contrib"
 projects[features_extra][type] = "module"
 projects[features_extra][subdir] = "contrib"
 
+projects[fences][type] = "module"
+projects[fences][subdir] = "contrib"
+
 projects[field_group][type] = "module"
 projects[field_group][subdir] = "contrib"
 
@@ -88,7 +91,7 @@ projects[manualcrop][type] = "module"
 projects[manualcrop][subdir] = "contrib"
 
 projects[media][type] = "module"
-projects[media][version] = "2.0-alpha2"
+projects[media][version] = "2.0-alpha4"
 projects[media][subdir] = "contrib"
 
 projects[media_bulk_upload][type] = "module"
@@ -106,11 +109,17 @@ projects[metatag][subdir] = "contrib"
 projects[mollom][type] = "module"
 projects[mollom][subdir] = "contrib"
 
+projects[multiform][type] = "module"
+projects[multiform][subdir] = "contrib"
+
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
 
 projects[pathologic][type] = "module"
 projects[pathologic][subdir] = "contrib"
+
+projects[plupload][type] = "module"
+projects[plupload][subdir] = "contrib"
 
 projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
@@ -129,6 +138,9 @@ projects[special_menu_items][subdir] = "contrib"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
+
+projects[transliteration][type] = "module"
+projects[transliteration][subdir] = "contrib"
 
 projects[transliteration][type] = "module"
 projects[transliteration][subdir] = "contrib"
@@ -189,3 +201,6 @@ libraries[jquery.imgareaselect][download][type] = "file"
 libraries[jquery.imgareaselect][download][url] = "http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip"
 
 libraries[jquery.imagesloaded][download][url] = "https://github.com/desandro/imagesloaded.git"
+
+libraries[plupload][download][type] = "file"
+libraries[plupload][download][url] = "https://github.com/moxiecode/plupload/archive/v1.5.8.zip"

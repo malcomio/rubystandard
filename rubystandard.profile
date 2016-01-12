@@ -3,6 +3,7 @@
  * @file
  * Enables modules and site configuration for a Ruby Design client standard site installation.
  */
+
 /**
  * Implements hook_form_FORM_ID_alter().
  *

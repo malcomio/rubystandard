@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ruby Content feature.
+ */
+
+include_once 'rubycontent.features.inc';
