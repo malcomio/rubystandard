@@ -81,12 +81,18 @@ projects[link][subdir] = "contrib"
 projects[linkit][type] = "module"
 projects[linkit][subdir] = "contrib"
 
+projects[maintenance_exempt][type] = "module"
+projects[maintenance_exempt][subdir] = "contrib"
+
 projects[manualcrop][type] = "module"
 projects[manualcrop][subdir] = "contrib"
 
 projects[media][type] = "module"
 projects[media][version] = "2.0-alpha2"
 projects[media][subdir] = "contrib"
+
+projects[media_bulk_upload][type] = "module"
+projects[media_bulk_upload][subdir] = "contrib"
 
 projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
@@ -102,6 +108,9 @@ projects[mollom][subdir] = "contrib"
 
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
+
+projects[pathologic][type] = "module"
+projects[pathologic][subdir] = "contrib"
 
 projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
@@ -120,6 +129,9 @@ projects[special_menu_items][subdir] = "contrib"
 
 projects[token][type] = "module"
 projects[token][subdir] = "contrib"
+
+projects[transliteration][type] = "module"
+projects[transliteration][subdir] = "contrib"
 
 projects[uuid][type] = "module"
 projects[uuid][subdir] = "contrib"
