@@ -94,9 +94,6 @@ projects[media][type] = "module"
 projects[media][version] = "2.0-alpha4"
 projects[media][subdir] = "contrib"
 
-projects[media_bulk_upload][type] = "module"
-projects[media_bulk_upload][subdir] = "contrib"
-
 projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
 
