@@ -91,7 +91,7 @@ projects[manualcrop][type] = "module"
 projects[manualcrop][subdir] = "contrib"
 
 projects[media][type] = "module"
-projects[media][version] = "2.0-alpha4"
+projects[media][version] = "2.0-beta1"
 projects[media][subdir] = "contrib"
 
 projects[menu_attributes][type] = "module"
