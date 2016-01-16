@@ -173,7 +173,6 @@ projects[xmlsitemap][subdir] = "contrib"
 
 ; Themes
 ; --------
-projects[zen][version] = 5.6
 projects[zen][type] = "theme"
 projects[zen][subdir] = "contrib"
 
