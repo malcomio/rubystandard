@@ -21,6 +21,9 @@ projects[backup_migrate][subdir] = "contrib"
 projects[block_class][type] = "module"
 projects[block_class][subdir] = "contrib"
 
+projects[checklistapi][type] = "module"
+projects[checklistapi][subdir] = "contrib"
+
 projects[ctools][type] = "module"
 projects[ctools][subdir] = "contrib"
 
@@ -118,6 +121,9 @@ projects[pathologic][subdir] = "contrib"
 projects[plupload][type] = "module"
 projects[plupload][subdir] = "contrib"
 
+projects[qa_checklist][type] = "module"
+projects[qa_checklist][subdir] = "contrib"
+
 projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
 
@@ -127,8 +133,14 @@ projects[r4032login][subdir] = "contrib"
 projects[search404][type] = "module"
 projects[search404][subdir] = "contrib"
 
+projects[seo_checklist][type] = "module"
+projects[seo_checklist][subdir] = "contrib"
+
 projects[securesite][type] = "module"
 projects[securesite][subdir] = "contrib"
+
+projects[security_review][type] = "module"
+projects[security_review][subdir] = "contrib"
 
 projects[special_menu_items][type] = "module"
 projects[special_menu_items][subdir] = "contrib"
