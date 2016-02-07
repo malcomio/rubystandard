@@ -197,6 +197,7 @@ function rubystandard_install() {
     'view advanced help index',
     'view advanced help popup',
     'view advanced help topic',
+    'create files',
     'view files',
     'view own unpublished content',
     'view revisions',
