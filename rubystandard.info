@@ -40,6 +40,7 @@ dependencies[] = menu
 dependencies[] = menu_attributes
 dependencies[] = menu_block
 dependencies[] = metatag
+dependencies[] = node_page_disable
 dependencies[] = number
 dependencies[] = options
 dependencies[] = path

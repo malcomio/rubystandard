@@ -112,6 +112,9 @@ projects[mollom][subdir] = "contrib"
 projects[multiform][type] = "module"
 projects[multiform][subdir] = "contrib"
 
+projects[node_page_disable][type] = "module"
+projects[node_page_disable][subdir] = "contrib"
+
 projects[pathauto][type] = "module"
 projects[pathauto][subdir] = "contrib"
 
