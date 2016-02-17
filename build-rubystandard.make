@@ -57,6 +57,9 @@ projects[field_group][subdir] = "contrib"
 projects[file_entity][type] = "module"
 projects[file_entity][subdir] = "contrib"
 
+projects[fpa][type] = "module"
+projects[fpa][subdir] = "contrib"
+
 projects[globalredirect][type] = "module"
 projects[globalredirect][subdir] = "contrib"
 

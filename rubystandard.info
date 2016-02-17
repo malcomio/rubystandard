@@ -21,6 +21,7 @@ dependencies[] = features
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = file_entity
+dependencies[] = fpa
 dependencies[] = globalredirect
 dependencies[] = googleanalytics
 dependencies[] = help
